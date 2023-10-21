@@ -1,6 +1,6 @@
 import styled from "styled-components";
 const imageLink =
-  "https://img.freepik.com/fotos-gratis/um-grupo-de-pessoas-internacionais-warking-com-laptop_613910-16750.jpg?w=996&t=st=1697345587~exp=1697346187~hmac=e2bd65169edbb885c0ff223efad906ae28bc464f65da0627422dd0f0673fc921";
+  "https://img.freepik.com/fotos-gratis/colegas-sorridentes-de-tiro-medio-no-trabalho_23-2149308444.jpg?w=1060&t=st=1697923579~exp=1697924179~hmac=ab00998e95688976d270928187cab3b99033ab7ebd920055293a9e427edca6aa";
 
 export const HeaderStyle = styled.header`
   width: 100%;
@@ -23,11 +23,10 @@ export const UnorderedList = styled.ul`
 
 export const Wrapper = styled.div`
   background-image: url(${imageLink});
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
-  width: 100%;
   display: flex;
   place-items: center;
 `;
@@ -44,10 +43,26 @@ export const ContentContainer = styled.div`
 `;
 
 export const ContainerText = styled.div`
-  width: 50%;
+  width: 60%;
 `;
 
 export const TitleStyle = styled.h2`
-  font-size: 28px;
+  font-size: 42px;
   font-weight: bold;
+  line-height: 1em;
+`;
+
+export const StyledP = styled.p`
+  line-height: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 640px;
+`;
+
+export const AnchorButtonDiv = styled.div`
+  margin-top: 20px;
+  transition: 0.2s;
+  &:hover {
+    transform: translateY(-2px);
+  }
 `;
