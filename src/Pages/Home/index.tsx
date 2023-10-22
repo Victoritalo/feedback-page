@@ -8,11 +8,14 @@ import {
   TitleStyle,
   StyledP,
   AnchorButtonDiv,
+  MainStyle,
 } from "./style";
 
 import { NavLinks } from "../../Components/NavLinks";
 import logo from "../../assets/images/alunosgrow.png";
 import { AnchorButton } from "../../Components/Button";
+import { students } from "../../database/Students";
+import CreateCards from "../../Components/CreateCards";
 
 export function Home() {
   return (
@@ -48,12 +51,19 @@ export function Home() {
               <AnchorButton
                 text={"Feedback disponíveis"}
                 url={"#"}
-                tagColors={{ backgroundColor: "#FF8533", color: "#ffffff" }}
+                tagColors={{ backgroundColor: "#FF8533", color: "#2b385b" }}
               />
             </AnchorButtonDiv>
           </ContainerText>
         </ContentContainer>
       </Wrapper>
+      <MainStyle>
+        {students.map((person, index) => (
+          <div key={index}>
+            <CreateCards {...person}></CreateCards>
+          </div>
+        ))}
+      </MainStyle>
     </>
   );
 }

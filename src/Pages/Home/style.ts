@@ -66,3 +66,12 @@ export const AnchorButtonDiv = styled.div`
     transform: translateY(-2px);
   }
 `;
+
+export const MainStyle = styled.main`
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #2b385b;
+`;
