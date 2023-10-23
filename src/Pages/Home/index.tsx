@@ -9,6 +9,7 @@ import {
   StyledP,
   AnchorButtonDiv,
   MainStyle,
+  Footer,
 } from "./style";
 
 import { NavLinks } from "../../Components/NavLinks";
@@ -64,6 +65,10 @@ export function Home() {
           </div>
         ))}
       </MainStyle>
+      <Footer>
+        <p>© 2023 AlunosGrow. Todos os direitos reservados.</p>
+        <p>Contato: alunosgrow@growdev.com</p>
+      </Footer>
     </>
   );
 }
