@@ -71,4 +71,5 @@ export function Home() {
       </Footer>
     </>
   );
+  
 }
