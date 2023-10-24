@@ -74,4 +74,16 @@ export const MainStyle = styled.main`
   flex-wrap: wrap;
   padding: 20px;
   background-color: #2b385b;
+  padding-bottom: 50px;
+  padding-top: 50px;
+`;
+
+export const Footer = styled.p`
+  background-color: #ffffff; 
+  color: #696969;
+  padding: 20px; 
+  text-align: center; 
+  font-weight: bold;
+  font-family: "Poppins",sans-serif;
+  font-size: small;
 `;
