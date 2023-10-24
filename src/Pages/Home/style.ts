@@ -12,6 +12,7 @@ export const HeaderStyle = styled.header`
   position: fixed;
   top: 0;
   z-index: 1;
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3)
 `;
 
 export const LogoStyle = styled.img`
