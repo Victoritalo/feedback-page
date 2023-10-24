@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
+  margin-top: 50px;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  /* font-size: 10px; */
-
   width: 20em;
   min-height: 25em;
   display: flex;
@@ -17,20 +16,17 @@ export const Card = styled.div`
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   color: #2b385b;
   padding: 20px;
-  transition: all 0.3s; 
-
+  transition: all 0.3s;
   &:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.02);
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.5);
   }
-
   a {
     svg {
       font-size: 30px;
     }
   }
-}
-`
+`;
 export const IconContainer = styled.div`
   display: flex;
   gap: 1em;
@@ -41,7 +37,6 @@ export const IconContainer = styled.div`
     text-decoration: none;
     color: #2b385b;
     transition: color 0.3s;
-
     &:hover {
       color: #333;
     }
@@ -72,22 +67,13 @@ export const UlStyle = styled.ul`
   padding: 0;
   margin-top: 15px;
 `;
-import medal from "../../assets/images/medal.png";
+
 export const ListStyle = styled.li`
   font-weight: 500;
   padding-top: 10px;
   text-align: left;
   display: flex;
   justify-content: space-around;
-  /* &::before {
-    content: "";
-    background-image: url(${medal});
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 20px;
-  } */
 `;
 
 export const StyledMedal = styled.img``;

@@ -9,6 +9,9 @@ export const HeaderStyle = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 `;
 
 export const LogoStyle = styled.img`
@@ -22,11 +25,12 @@ export const UnorderedList = styled.ul`
 `;
 
 export const Wrapper = styled.div`
+  margin-top: 60px;
   background-image: url(${imageLink});
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30rem;
+  height: 40rem;
   display: flex;
   place-items: center;
 `;
@@ -44,6 +48,7 @@ export const ContentContainer = styled.div`
 
 export const ContainerText = styled.div`
   width: 60%;
+  margin-left: 15px;
 `;
 
 export const TitleStyle = styled.h2`
@@ -67,7 +72,7 @@ export const AnchorButtonDiv = styled.div`
   }
 `;
 
-export const MainStyle = styled.main`
+export const CardSection = styled.div`
   display: flex;
   justify-content: center;
   gap: 1em;
@@ -79,11 +84,11 @@ export const MainStyle = styled.main`
 `;
 
 export const Footer = styled.p`
-  background-color: #ffffff; 
+  background-color: #ffffff;
   color: #696969;
-  padding: 20px; 
-  text-align: center; 
+  padding: 20px;
+  text-align: center;
   font-weight: bold;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: small;
 `;

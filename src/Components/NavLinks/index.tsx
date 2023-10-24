@@ -8,7 +8,7 @@ export function NavLinks(props: NavLinksProps) {
   return (
     <NavContainer>
         <li>
-          <AnchorStyle href={props.link} target="_blank" rel="noopener noreferrer">
+          <AnchorStyle href={props.link} rel="noopener noreferrer">
             <p>{props.anchorName}</p>
           </AnchorStyle>
         </li>
