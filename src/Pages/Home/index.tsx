@@ -18,7 +18,8 @@ import { AnchorButton } from "../../Components/Button";
 import { students } from "../../database/Students";
 import CreateCards from "../../Components/CreateCards";
 import { Section } from "../../Components/MainSections";
-
+import coworkersImage from "../../assets/images/officecoworkersfreepik.avif";
+import mentorCarol from "../../assets/images/mentora_carol1689627071804.jfif";
 export function Home() {
   return (
     <>
@@ -65,9 +66,7 @@ export function Home() {
           textcontent={
             "No contexto do projeto atual e seus colaboradores, nosso objetivo é destacar as qualidades notáveis de nossa equipe, incluindo habilidades de comunicação, comprometimento, criatividade e colaboração, que contribuem para o sucesso do projeto."
           }
-          imageLink={
-            "https://img.freepik.com/fotos-gratis/trabalhadores-de-escritorio-trabalhando-juntos-como-uma-equipe_23-2149310888.jpg"
-          }
+          imageLink={coworkersImage}
           id={"sobre"}
           bg={{ backgroundColor: "#fffff" }}
         />
@@ -76,9 +75,7 @@ export function Home() {
           textcontent={
             "Psicóloga, Mentora de Carreira e Empreendedora Social. Atualmente, ela atua como mentora de carreira e orientadora profissional. Nos últimos anos, direcionou seu olhar, pensamentos e estudos para auxiliar pessoas em seus processos de carreira. Essa mudança de foco permitiu a ela abraçar uma missão gratificante: ajudar indivíduos a trilharem caminhos profissionais mais satisfatórios e bem-sucedidos."
           }
-          imageLink={
-            "https://media.licdn.com/dms/image/D4D22AQHjRhr8q6oiIg/feedshare-shrink_800/0/1689627071804?e=1701302400&v=beta&t=zJ5yqkWPC4fm42PDjCpAPL-MeAUGSJTdvD_7xnBOOOk"
-          }
+          imageLink={mentorCarol}
           id={"mentor"}
           bg={{ backgroundColor: "#E7E9EB" }}
         />

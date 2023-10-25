@@ -1,7 +1,7 @@
-import JenniferLoboPhoto from '../assets/images/jennie-foto.jpeg';
-import VictorFernandesPhoto from '../assets/images/victor-fernandes-foto.jpeg'
-import VictorItaloPhoto from '../assets/images/victor-italo-foto.jpeg';
-import RoqueJuniorPhoto from '../assets/images/roque-foto.jpeg';
+import JenniferLoboPhoto from "../assets/images/jennie-foto.jpeg";
+import VictorFernandesPhoto from "../assets/images/victor-fernandes-foto.jpeg";
+import VictorItaloPhoto from "../assets/images/victor-italo-foto.jpeg";
+import RoqueJuniorPhoto from "../assets/images/roque-foto.jpeg";
 
 export const students = [
   {
@@ -16,7 +16,7 @@ export const students = [
     photo: VictorItaloPhoto,
     skills: ["Comunicativo", "Bom Humor", "Determinado"],
     githubLink: "https://github.com/Victoritalo",
-    linkedinLink: "https://www.linkedin.com/in/victoritalo.png",
+    linkedinLink: "https://www.linkedin.com/in/victoritalo/",
   },
   {
     name: "Victor Fernandes",

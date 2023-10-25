@@ -1,7 +1,6 @@
 import styled from "styled-components";
-const imageLink =
-  "https://img.freepik.com/fotos-gratis/colegas-sorridentes-de-tiro-medio-no-trabalho_23-2149308444.jpg?w=1060&t=st=1697923579~exp=1697924179~hmac=ab00998e95688976d270928187cab3b99033ab7ebd920055293a9e427edca6aa";
 
+import banner from "../../assets/images/bannerimagecoworkers.jpg";
 export const HeaderStyle = styled.header`
   width: 100%;
   padding: 15px;
@@ -12,7 +11,7 @@ export const HeaderStyle = styled.header`
   position: fixed;
   top: 0;
   z-index: 1;
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3);
 `;
 
 export const LogoStyle = styled.img`
@@ -27,7 +26,7 @@ export const UnorderedList = styled.ul`
 
 export const Wrapper = styled.div`
   margin-top: 60px;
-  background-image: url(${imageLink});
+  background-image: url(${banner});
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
