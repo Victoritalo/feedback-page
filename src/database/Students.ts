@@ -9,7 +9,7 @@ export const students = [
     photo: JenniferLoboPhoto,
     skills: ["Comunicativa", "Determinada", "Amigável"],
     githubLink: "https://github.com/jennilobo",
-    linkedinLink: "www.linkedin.com/in/jennifer-lobo-983bb91b2",
+    linkedinLink: "https://www.linkedin.com/in/jennifer-lobo-983bb91b2/",
   },
   {
     name: "Victor Italo",
