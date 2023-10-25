@@ -36,7 +36,7 @@ export function Home() {
         <ContentContainer>
           <ContainerText>
             <TitleStyle>
-              Bem vindo ao <br></br>{" "}
+              Bem vindo(a) ao <br></br>{" "}
               <span style={{ color: "#FF8533", fontSize: "35px" }}>
                 Feedback
               </span>{" "}
